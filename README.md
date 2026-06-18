@@ -1,15 +1,14 @@
-Contribution guidelines
-Welcome Contributors!
-Thank you for considering contributing to the centralized repository. This document outlines the guidelines for contributing to the development of Shipping Rates and Calculations.
+# Shipping Cost Calculator
 
-Code style
-Please follow the coding style and conventions used in the existing codebase. This helps maintain consistency across the project.
+## Input package weight and shipping rate
+weight = float(input("Enter the package weight in kilograms: "))
+rate = float(input("Enter the shipping rate per kilogram: "))
 
-Documentation
-Ensure that your contributions are well-documented. Include comments in your code where necessary and provide a clear and concise description of your changes in the pull request.
+## Calculate shipping cost
+shipping_cost = weight * rate
 
-Testing
-Before submitting a pull request, make sure your changes have been tested thoroughly. Include relevant test cases and ensure that existing tests pass.
+## Display the result
+print(f"Shipping Cost: {shipping_cost} USD")
 
 Issue tracker
 Check the issue tracker for any open issues or feature requests. If you're working on something, please comment on the issue to let others know.
